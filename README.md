@@ -4,13 +4,13 @@ Using HTML and Bootstrap to recreate <a href="http://unicurd.com.sg/" target="_b
  
 ## Design Process
 
-The website is created to fulfil a module requirement from Ngee Ann Polytechnic programme. This project will showcase my proficiency in utilising HTML and Bootstrap.
+The website is created to fulfil a module requirement from Ngee Ann Polytechnic programme. This project will showcase my proficiency in utilising HTML and Bootstrap
 
-I used Figma to create a mid-fi wireframe. The link is <a href="https://www.figma.com/file/kZQazxQ8afEZq8BfE676Ye/unicurd" target="_blank">here</a>.
+I used Figma to create a mid-fi wireframe. The link is <a href="https://www.figma.com/file/kZQazxQ8afEZq8BfE676Ye/unicurd" target="_blank">here</a>
 
 ## Features
 
-A non-functional navigation bar, a carousell to display beautiful visuals, and a non-functional call-to-action below.
+A non-functional navigation bar, a carousell to display beautiful visuals, and a non-functional call-to-action below
  
 ### Existing Features
 - Feature 1 - allows visitors to see pretty visuals with carousell function
@@ -21,8 +21,8 @@ A non-functional navigation bar, a carousell to display beautiful visuals, and a
 
 ## Technologies Used
 
-- [HTML]
-- [Bootstrap]
+- HTML
+- Bootstrap
 
 ## Testing
 
