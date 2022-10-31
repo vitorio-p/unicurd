@@ -1,108 +1,165 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-<head>
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
 
-  <!-- Bootstrap CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Unicurd</title>
+  </head>
 
-  <title>Unicurd</title>
-</head>
+  <body>
+    <nav class="navbar navbar-expand-sm bg-light navbar-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img
+            src="images/unicurd.gif"
+            href="index.html"
+            style="width: 40px"
+            class="d-inline-block align-text-middle"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#collapsibleNavbar"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Health & Nutrition</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Everything about Tofu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
-<body>
-  <nav class="navbar navbar-expand-sm bg-light navbar-light">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">
-        <img src="images/unicurd.gif" style="width:40px" class="d-inline-block align-text-middle">
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
-        <span class="navbar-toggler-icon"></span>
+    <div
+      id="front-page-carousel"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#front-page-carousel"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#front-page-carousel"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#front-page-carousel"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="images/homecook.jpg"
+            class="d-block w-100"
+            alt="Home cook"
+          />
+        </div>
+        <div class="carousel-item">
+          <img src="images/tofu.jpg" class="d-block w-100" alt="Raw tofu" />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="images/cooked-tofu.jpg"
+            class="d-block w-100"
+            alt="Cooked tofu"
+          />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#front-page-carousel"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
       </button>
-      <div class="collapse navbar-collapse" id="collapsibleNavbar">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link" href="#">About Us</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Products</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Health & Nutrition</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Everything about Tofu</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contact Us</a>
-          </li>
-        </ul>
-      </div>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#front-page-carousel"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
-  </nav>
 
-  <div id="front-page-carousel" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#front-page-carousel" data-bs-slide-to="0" class="active"
-        aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#front-page-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#front-page-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <div class="row gx-lg-2 my-lg-2">
+      <section class="col-12 col-lg-4">
+        <div class="bg-primary bg-gradient p-3">
+          <h1 class="text-white">Have a recipe to share?</h1>
+          <p class="text-white">We know you have one...</p>
+          <button class="btn btn-danger">Share now!</button>
+        </div>
+      </section>
+
+      <section class="col-12 col-lg-4">
+        <div class="bg-secondary bg-gradient p-3">
+          <h1 class="text-white">Do you know?</h1>
+          <p class="text-white">
+            There are many health benefits of eating tofu.
+          </p>
+          <button class="btn btn-danger">Check Now!</button>
+        </div>
+      </section>
+
+      <section class="col-12 col-lg-4">
+        <div class="bg-warning bg-gradient p-3">
+          <h1 class="text-dark">Find a tofu recipe!</h1>
+          <p class="text-dark">
+            Look through numerous recipes shared by fellow cooks!
+          </p>
+          <button class="btn btn-danger">Find Now!</button>
+        </div>
+      </section>
     </div>
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="images/homecook.jpg" class="d-block w-100" alt="Home cook">
-      </div>
-      <div class="carousel-item">
-        <img src="images/tofu.jpg" class="d-block w-100" alt="Raw tofu">
-      </div>
-      <div class="carousel-item">
-        <img src="images/cooked-tofu.jpg" class="d-block w-100" alt="Cooked tofu">
-      </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#front-page-carousel" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#front-page-carousel" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div>
 
-  <div class="row gx-lg-2 my-lg-2">
-    <section class="col-12 col-lg-4">
-      <div class="bg-primary bg-gradient p-3">
-        <h1 class="text-white">Have a recipe to share?</h1>
-        <p class="text-white">We know you have one...</p>
-        <button class="btn btn-danger">Share now!</button>
+    <footer class="box row">
+      <div class="col">
+        Contact Us | VHL | Terms & Conditions | Privacy Policy
       </div>
-    </section>
-
-    <section class="col-12 col-lg-4">
-      <div class="bg-secondary bg-gradient p-3">
-        <h1 class="text-white">Do you know?</h1>
-        <p class="text-white">There are many health benefits of eating tofu.</p>
-        <button class="btn btn-danger">Check Now!</button>
+      <div class="col">
+        © 2018 Vitasoy International Singapore Pte Ltd. All Rights Reserved
       </div>
-    </section>
+    </footer>
 
-    <section class="col-12 col-lg-4">
-      <div class="bg-warning bg-gradient p-3">
-        <h1 class="text-dark">Find a tofu recipe!</h1>
-        <p class="text-dark">Look through numerous recipes shared by fellow cooks!</p>
-        <button class="btn btn-danger">Find Now!</button>
-      </div>
-    </section>
-  </div>
-
-  <footer class="box row">
-    <div class="col">Contact Us | VHL | Terms & Conditions | Privacy Policy</div>
-    <div class="col">© 2018 Vitasoy International Singapore Pte Ltd. All Rights Reserved</div>
-  </footer>
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
-</body>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
 </html>
