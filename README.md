@@ -1,12 +1,6 @@
-# unicurd
-
-Using HTML and Bootstrap to recreate unicurd homepage
-
-Everything was done in Replit before being imported to GitHub
-
 # Unicurd
 
-Using HTML and Bootstrap to recreate <a href="http://unicurd.com.sg/" target="_blank">Unicurd homepage</a>
+Using HTML and Bootstrap to recreate <a href="http://unicurd.com.sg/" target="_blank">Unicurd homepage</a>. Everything was done in Replit before imported to GitHub
  
 ## Design Process
 
