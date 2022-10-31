@@ -10,11 +10,12 @@ I used Figma to create a mid-fi wireframe. The link is <a href="https://www.figm
 
 ## Features
 
-A non-functional navigation bar, a carousell to display beautiful visuals, and a non-functional call-to-action below
+A semi-functional navigation bar, a carousell to display beautiful visuals, and a non-functional call-to-action below
 
 ### Existing Features
 
 - Feature 1 - allows visitors to see pretty visuals with carousell function
+- Feature 2 - allows visitors to explore 2 other pages: About Us and Contact Us
 
 ### Features Left to Implement
 
