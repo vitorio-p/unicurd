@@ -15,7 +15,7 @@ A semi-functional navigation bar, a carousell to display beautiful visuals, and 
 ### Existing Features
 
 - Feature 1 - allows visitors to see pretty visuals with carousell function
-- Feature 2 - allows visitors to explore 2 other pages: About Us and Contact Us
+- Feature 2 - allows visitors to explore 3 pages: Homepage, About Us and Contact Us
 
 ### Features Left to Implement
 
